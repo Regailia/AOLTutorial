@@ -26,10 +26,10 @@ class TimLab:
             raise Exception(f"Unknown funding source: {fund}")
             print("New pull request 2")
 
-print("Fetch isn't going to happen.")
 
 aol = TimLab()
 aol.add_student("Bing", 30, 1)
+aol.add_student("Craig", 30, 3)
 
 print(aol.total_cost())
 aol.funding("NSERC", 123456)
