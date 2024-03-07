@@ -40,3 +40,5 @@ aol2024.add_student("Jamal", 30, 3)
 print(aol2024.total_cost())
 aol2024.funding("NSERC", 123456)
 print(aol2024.status)
+
+print("Hello world -- Maaz")
