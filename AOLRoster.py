@@ -4,6 +4,9 @@ class TimLab:
     years_needed = []
     status = 'unfunded'
 
+    def __init__(self, year):
+        self.year = year
+    
     def add_student(self, name, funding, years):
         self.people.append(name)
         self.funding_per_year.append(funding)
@@ -29,10 +32,10 @@ class TimLab:
             raise Exception(f"Unknown funding source: {fund}")
 
 
-aol = TimLab()
-aol.add_student("Bing", 30, 1)
-aol.add_student("Jesse", 30, 0)
+aol2024 = TimLab(2024)
+aol2024.add_student("Bing", 30, 1)
+aol2024.add_student("Jesse", 30, 0)
 
-print(aol.total_cost())
-aol.funding("NSERC", 123456)
-print(aol.status)
+print(aol2024.total_cost())
+aol2024.funding("NSERC", 123456)
+print(aol2024.status)
