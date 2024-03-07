@@ -31,6 +31,7 @@ aol = TimLab()
 aol.add_student("Bing", 30, 1)
 aol.add_student("Craig", 30, 3)
 aol.add_student("Ben", 30, 1)
+aol.add_student("Bo", 30, 2)
 
 print(aol.total_cost())
 aol.funding("NSERC", 123456)
