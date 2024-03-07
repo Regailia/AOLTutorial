@@ -29,6 +29,7 @@ class TimLab:
 
 aol = TimLab()
 aol.add_student("Bing", 30, 1)
+aol.add_student("Ben", 30, 2)
 aol.add_student("Craig", 30, 3)
 
 print(aol.total_cost())
