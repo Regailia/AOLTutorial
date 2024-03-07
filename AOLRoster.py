@@ -22,6 +22,9 @@ class TimLab:
             print("CIHR funding.")
             print(f"Account number: {account_number}")
             self.status = "funded"
+        elif fund == "None":
+            print("No funding available.")
+            self.status == "not funded"
         else:
             raise Exception(f"Unknown funding source: {fund}")
 
