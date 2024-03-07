@@ -36,6 +36,7 @@ aol2024 = TimLab(2024)
 aol2024.add_student("Bing", 30, 1)
 aol2024.add_student("Jesse", 30, 0)
 aol2024.add_student("Jamal", 30, 3)
+aol2024.add_student("Vinicus", 30, 4)
 
 print(aol2024.total_cost())
 aol2024.funding("NSERC", 123456)
