@@ -27,6 +27,7 @@ class TimLab:
             print("New pull request 2")
 
 print("Stop trying to make fetch happen!")
+print("Fetch!")
 
 aol = TimLab()
 aol.add_student("Bing", 30, 1)
