@@ -24,7 +24,6 @@ class TimLab:
             self.status = "funded"
         else:
             raise Exception(f"Unknown funding source: {fund}")
-            print("New pull request 2")
 
 
 aol = TimLab()
