@@ -26,7 +26,7 @@ class TimLab:
             raise Exception(f"Unknown funding source: {fund}")
             print("New pull request 2")
 
-print("Stop trying to make fetch happen!")
+print("Fetch isn't going to happen.")
 
 aol = TimLab()
 aol.add_student("Bing", 30, 1)
